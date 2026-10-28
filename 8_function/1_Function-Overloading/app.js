@@ -1,8 +1,8 @@
 /**
  * # Function overloading
- *    TypeScript cung cấp khái niệm nạp chồng hàm.
- *    Bạn có thể có nhiều hàm có cùng tên nhưng kiểu tham số và kiểu trả về khác nhau.
- *    Tuy nhiên, số lượng các tham số phải giống nhau.
+ *    TypeScript cung cap khai niem nap chong ham.
+ *    Ban co the co nhieu ham co cung ten nhung kieu tham so va kieu tra ve khac nhau.
+ *    Tuy nhien, so luong cac tham so phai giong nhau.
  */
 function add(a, b) {
     return a + b;

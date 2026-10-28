@@ -34,8 +34,8 @@ class Student extends Person {
   }
 
   getFullInfo() {
-    // thuộc tính dùng this
-    // phương thức dùng super
+    // thuoc tinh dung this
+    // phuong thuc dung super
     return `
       Full name: ${this.firstName} ${this.lastName} 
       Age: ${super.getAge()},  

@@ -9,7 +9,7 @@ abstract class Person {
     return this.name;
   }
 
-  // bắt buộc lớp con phải override
+  // bat buoc lop con phai override
   abstract find(string): Person;
 }
 

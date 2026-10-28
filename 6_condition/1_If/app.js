@@ -8,7 +8,7 @@ else if (x < y) {
 else if (x == y) {
     console.log("x is equal to y");
 }
-// Ternary operator - Toán tử 3 ngôi
+// Ternary operator - Toan tu 3 ngoi
 var z = 10, w = 20;
 z > w
     ? console.log("z is greater than w.")

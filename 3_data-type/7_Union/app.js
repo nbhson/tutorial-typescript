@@ -1,7 +1,7 @@
 /**
  * # Union
- *    cho phép sử dụng nhiều hơn 1 kiểu dữ liệu
- *    cho một biến hoặc 1 tham số hàm
+ *    cho phep su dung nhieu hon 1 kieu du lieu
+ *    cho mot bien hoac 1 tham so ham
  */
 /** Variable */
 var code;

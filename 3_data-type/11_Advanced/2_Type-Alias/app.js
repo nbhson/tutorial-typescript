@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-// string thì string hết, number thì number hết
+// string thi string het, number thi number het
 var a = {
     foo: '10',
     bar: '10'
@@ -8,18 +8,18 @@ var a = {
 var b = "a";
 var c = "c";
 var d = 10;
-// Readonly<T> làm tất cả các props trong type thành readonly. Eg: Rất có lợi khi dùng cho Redux State.
+// Readonly<T> lam tat ca cac props trong type thanh readonly. Eg: Rat co loi khi dung cho Redux State.
 var e = {
     firstName: 'Son',
     lastName: 'Nguyen'
 };
-// Required<T> làm tất cả các props trong type thành bắt buộc
+// Required<T> lam tat ca cac props trong type thanh bat buoc
 var f = {
     firstName: 'Son',
     lastName: 'Nguyen',
     age: 20
 };
-// type Partial<T> làm tất cả các props trong type thành optional
+// type Partial<T> lam tat ca cac props trong type thanh optional
 var j = {};
 function aaa() {
     return 1;

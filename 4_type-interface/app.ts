@@ -1,9 +1,9 @@
 /**
  * # Type interface
- *  Khi khai báo biến và gán giá trị khi chưa khai báo kiểu dữ liệu
- *  Thì TS sẽ tự động đoán kiểu dữ liệu của biến đó là gì
+ *  Khi khai bao bien va gan gia tri khi chua khai bao kieu du lieu
+ *  Thi TS se tu dong doan kieu du lieu cua bien do la gi
  */
 
-let color = "red"; // TS sẽ tự đoán và gán kiểu dữ liệu string cho biến color
-color = "blue"; // nếu muốn thay đổi giá trị thì bắt buộc cũng phải là 1 string
-// color = 123 // Error nếu cố ý gán giá trị với kiểu dữ liệu khác
+let color = "red"; // TS se tu doan va gan kieu du lieu string cho bien color
+color = "blue"; // neu muon thay doi gia tri thi bat buoc cung phai la 1 string
+// color = 123 // Error neu co y gan gia tri voi kieu du lieu khac

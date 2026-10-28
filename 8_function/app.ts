@@ -29,4 +29,4 @@ defaultParamFunc('Steve');// "Hello Steve!"
 defaultParamFunc('Steve', 'Hi'); //  "Hi Steve!".
 defaultParamFunc('Bill'); // "Hello Bill!"
 
-// void 0 là undefined (xem app.js)
+// void 0 la undefined (xem app.js)

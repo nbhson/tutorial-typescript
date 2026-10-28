@@ -1,7 +1,7 @@
 /**
  * # Public
- *    Tất cả các thành phần trong class mặc định đều là public
- *    Có thể được truy cập ở bất cứ đâu mà không có bất kỳ hạn chế nào.
+ *    Tat ca cac thanh phan trong class mac dinh deu la public
+ *    Co the duoc truy cap o bat cu dau ma khong co bat ky han che nao.
  */
 
 class Employee {
@@ -15,7 +15,7 @@ emp.empName = "Swati";
 
 /**
  * # Private
- *   Chỉ hiển thị đối với lớp đó và không thể truy cập được bên ngoài lớp chứa
+ *   Chi hien thi doi voi lop do va khong the truy cap duoc ben ngoai lop chua
  */
 class Employee2 {
   private empCode: number;
@@ -48,7 +48,7 @@ class SalesEmployee extends Employee3 {
   }
 
   getCode() {
-    return this.empCode; // như private nhưng có thể truy cập ở lớp con | private thì chỉ trong lớp của nó
+    return this.empCode; // nhu private nhung co the truy cap o lop con | private thi chi trong lop cua no
   }
   getDepartment() {
     return this.department;

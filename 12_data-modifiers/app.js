@@ -1,7 +1,7 @@
 /**
  * # Public
- *    Tất cả các thành phần trong class mặc định đều là public
- *    Có thể được truy cập ở bất cứ đâu mà không có bất kỳ hạn chế nào.
+ *    Tat ca cac thanh phan trong class mac dinh deu la public
+ *    Co the duoc truy cap o bat cu dau ma khong co bat ky han che nao.
  */
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
@@ -28,7 +28,7 @@ emp.empCode = 123;
 emp.empName = "Swati";
 /**
  * # Private
- *   Chỉ hiển thị đối với lớp đó và không thể truy cập được bên ngoài lớp chứa
+ *   Chi hien thi doi voi lop do va khong the truy cap duoc ben ngoai lop chua
  */
 var Employee2 = /** @class */ (function () {
     function Employee2(code, name) {
@@ -46,7 +46,7 @@ var XXX = /** @class */ (function (_super) {
     }
     return XXX;
 }(Employee2));
-var emp2 = new Employee2(23, 'Sơn');
+var emp2 = new Employee2(23, 'Son');
 console.log(emp2);
 // emp2.empCode = 123; // Compiler Error
 // emp2.empName = "Swati"; //OK
@@ -68,7 +68,7 @@ var SalesEmployee = /** @class */ (function (_super) {
         return _this;
     }
     SalesEmployee.prototype.getCode = function () {
-        return this.empCode; // như private nhưng có thể truy cập ở lớp con của nó
+        return this.empCode; // nhu private nhung co the truy cap o lop con cua no
     };
     SalesEmployee.prototype.getDepartment = function () {
         return this.department;

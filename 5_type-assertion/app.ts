@@ -1,6 +1,6 @@
-let mVariable: any = 'Typescript training'; // đang kiểu any
+let mVariable: any = 'Typescript training'; // dang kieu any
 
-// Muốn dùng các phương thức của String phải convert về string
-// let total = (<string>mVariable).length  // cách 1 
-let total = (mVariable as string).length // cách 2
+// Muon dung cac phuong thuc cua String phai convert ve string
+// let total = (<string>mVariable).length  // cach 1 
+let total = (mVariable as string).length // cach 2
 console.log(total);

@@ -8,8 +8,8 @@ console.log(third); // 255
 console.log(fourth); // 57 
 /**
  * # toExponential()
- *    trả về ký hiệu mũ của một số ở dạng chuỗi
- *    dựa trên các chữ số phân số được chỉ định
+ *    tra ve ky hieu mu cua mot so o dang chuoi
+ *    dua tren cac chu so phan so duoc chi dinh
  */
 var numExponential = 123456;
 console.log(numExponential.toExponential()); // 1.23456e+5
@@ -17,7 +17,7 @@ console.log(numExponential.toExponential(1)); // 1.2e+5
 console.log(numExponential.toExponential(2)); // 1.23e+5
 /**
  * # toFixed()
- *    trả về điểm cố định của một số ở định dạng chuỗi
+ *    tra ve diem co dinh cua mot so o dinh dang chuoi
  */
 var numFixed = 10.8788;
 console.log(numFixed.toFixed()); // 10
@@ -27,7 +27,7 @@ console.log(numFixed.toFixed(3)); // 10.879
 console.log(numFixed.toFixed(4)); // 10.8788
 /**
  * # valueOf
- *    trả về kiểu dữ liệu nguyên thủy của number
+ *    tra ve kieu du lieu nguyen thuy cua number
  */
 var myNumber = new Number(123);
 console.log(myNumber); //Output: a number object with value 123

@@ -1,6 +1,6 @@
 /**
  * # Type annotation
- *   Khai báo kiểu dữ liệu cho biến/default param/object/function khi khởi tạo
+ *   Khai bao kieu du lieu cho bien/default param/object/function khi khoi tao
  */
 // Annotation Variables
 var age = 32;
@@ -14,5 +14,5 @@ function display(id, name) {
 var employee;
 employee = {
     id: 10,
-    yourName: 'Sơn'
+    yourName: 'Son'
 };
